@@ -3,7 +3,7 @@ package br.com.SistemaDeGestaoLojasInfinity.model;
 import java.util.ArrayList;
 
 public class Cliente extends Pessoa {
-
+// teste
 	
 	public Cliente(String nome, int rg, int cpf, Endereco endereco,
 			int telefone, String email, double limite, ArrayList<Vendas> compras) {
