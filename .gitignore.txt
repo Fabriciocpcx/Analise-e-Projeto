@@ -1,0 +1,57 @@
+# Criado por https://www.gitignore.io/api/java,eclipse
+
+### Java ###
+*.aula
+
+# Ferramentas para celulares Java (J2ME)
+.mtj.tmp /
+
+# Package Files #
+* .jar
+* .war
+* .ear
+
+# Registros de acidentes máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid *
+
+
+### Eclipse ###
+* .pydevproject
+.metadata
+.gradle
+bin /
+tmp /
+* .tmp
+* .bak
+* .swp
+* ~ .nib
+local.properties
+.configurações/
+.loadpath
+
+# Eclipse Núcleo
+.project
+
+# Construtores de ferramentas externas
+.externalToolBuilders /
+
+# Armazenadas localmente "configurações de lançamento do Eclipse"
+* .launch
+
+# CDT-específica
+.cproject
+
+# JDT-específico (Ferramentas de Desenvolvimento Eclipse Java)
+.classpath
+
+# Processador de anotação Java (APT)
+.factorypath
+
+# PDT-específica
+.buildpath
+
+# Sbteclipse plug-in
+.alvo
+
+# TeXlipse plug-in
+.texlipse
