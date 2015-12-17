@@ -8,6 +8,7 @@ public class Vendas {
 	private ArrayList<Mercadoria> mercadorias = new ArrayList<Mercadoria>();
 	private int codVenda;
 	private Date data;
+	private Funcionario funcionario;
 
 	public ArrayList<Mercadoria> getMercadorias() {
 		return mercadorias;
@@ -53,6 +54,14 @@ public class Vendas {
 		if (codVenda != other.codVenda)
 			return false;
 		return true;
+	}
+
+	public Funcionario getFuncionario() {
+		return funcionario;
+	}
+
+	public void setFuncionario(Funcionario funcionario) {
+		this.funcionario = funcionario;
 	}
 
 }
